@@ -1,4 +1,4 @@
-<code>__author__ = 'Chandu'
+__author__ = 'Chandu'
 import sys,heapq,math,itertools
 
 class hcluster:
@@ -146,4 +146,4 @@ if __name__=="__main__":
     clustering = hcluster(k,fileName)
     clustering.clustering()
     clustering.calculatePrecissionRecall()
-    clustering.outputClusters()</code>
+    clustering.outputClusters()
